@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombia Travel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body {
+        min-height: 100vh;
+        background: linear-gradient(120deg, #2e3c5d 0%, #8e03d8 60%, #067ead 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0; width: 100vw; height: 100vh;
+        z-index: -1;
+        background: radial-gradient(circle at 15% 20%, #ffe5b4 0%, transparent 40%),
+                    radial-gradient(circle at 85% 80%, #ca1744 0%, transparent 40%),
+                    radial-gradient(circle at 50% 50%, #fff 0%, transparent 60%);
+        opacity: 0.45;
+    }
+    .section-title { color: #fff; font-weight: bold; text-shadow: 0 2px 8px #2e3c5d; }
+    .card-custom1 { background: rgba(255, 255, 255, 0.85); border: none; box-shadow: 0 2px 12px rgba(46,60,93,0.08); color: #2e3c5d; }
+    .card-custom2 { background: rgba(255, 255, 255, 0.85); border: none; box-shadow: 0 2px 12px rgba(46,60,93,0.08); color: #067ead; }
+    .card-custom3 { background: rgba(255, 255, 255, 0.85); border: none; box-shadow: 0 2px 12px rgba(46,60,93,0.08); color: #8e03d8; }
+    .card-custom4 { background: rgba(255, 255, 255, 0.85); border: none; box-shadow: 0 2px 12px rgba(46,60,93,0.08); color: #ca1744; }
+    .card-title { font-weight: bold; text-shadow: 0 1px 6px #fff6; }
+    .card-text { font-size: 1.05rem; }
+    .footer { background: rgba(46,60,93,0.95); color: #fff; border-top: 2px solid #067ead; }
+    .footer a { color: #ffe5b4; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; color: #8e03d8; }
+    .img-placeholder { background: #eceaea; height: 120px; display: flex; align-items: center; justify-content: center; color: #888; font-size: 1.2rem; border-radius: 0.5rem; }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <!-- Encabezado -->
+        <div class="row text-center mb-4">
+            <div class="col-md-4">
+                <h5 class="fw-bold">Destinos Únicos</h5>
+                <p>Descubre lugares increíbles en todo el mundo, desde maravillas naturales hasta ciudades vibrantes y culturas fascinantes.</p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="fw-bold">Guías Expertos</h5>
+                <p>Guías internacionales te mostrarán los secretos mejor guardados de cada país y te acompañarán en cada aventura.</p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="fw-bold">Viaje Seguro</h5>
+                <p>Tu seguridad es nuestra prioridad, con protocolos y asistencia en todos los destinos internacionales.</p>
+            </div>
+        </div>
+        <!-- Destinos Internacionales -->
+        <h3 class="text-center section-title mb-4">Destinos Internacionales</h3>
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="card card-custom1 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Argentina</h5>
+                        <p class="card-text">Descubre la pasión del tango, la belleza de la Patagonia y la vibrante Buenos Aires.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/argentina.jpg" alt="Argentina" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom2 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Francia</h5>
+                        <p class="card-text">Vive el romance de París, la historia de Normandía y los paisajes de la Riviera Francesa.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/francia.jpg" alt="Francia" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom3 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Japón</h5>
+                        <p class="card-text">Sumérgete en la cultura milenaria, la tecnología y los cerezos en flor de Japón.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/japon.jpg" alt="Japón" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom4 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Australia</h5>
+                        <p class="card-text">Explora la Gran Barrera de Coral, Sídney y la naturaleza salvaje australiana.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/australia.jpg" alt="Australia" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="card card-custom2 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Egipto</h5>
+                        <p class="card-text">Admira las pirámides, el Nilo y la historia faraónica de Egipto.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/egipto.jpg" alt="Egipto" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom3 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Canadá</h5>
+                        <p class="card-text">Disfruta de los paisajes naturales, ciudades modernas y la multiculturalidad canadiense.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/canada.jpg" alt="Canadá" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom4 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Italia</h5>
+                        <p class="card-text">Recorre Roma, Venecia y la Toscana, y disfruta de la mejor gastronomía.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/italia.jpg" alt="Italia" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom1 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Sudáfrica</h5>
+                        <p class="card-text">Vive la aventura de los safaris, Ciudad del Cabo y la cultura africana.</p>
+                        <div class="img-placeholder mb-2 p-0" style="background:none;height:auto;">
+                            <img src="imagenes/sudrafica.jpg" alt="Sudáfrica" class="img-fluid rounded w-100">
+                        </div>
+                        <a href="#" class="btn btn-outline-dark">Explorar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonios -->
+        <h3 class="text-center section-title mb-4">Lo Que Dicen Nuestros Viajeros</h3>
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Argentina me sorprendió con su cultura y paisajes. ¡El tango en Buenos Aires es inolvidable!"</p>
+                        <span class="text-success fw-bold">- Lucía Fernández, México</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Francia es mágica. París y la Riviera Francesa son destinos que todos deberían conocer."</p>
+                        <span class="text-primary fw-bold">- Pierre Dubois, Francia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Japón es fascinante. La mezcla de tradición y modernidad me dejó maravillado."</p>
+                        <span class="text-info fw-bold">- Akira Sato, Japón</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Australia tiene paisajes únicos y una fauna increíble. ¡Recomiendo los parques nacionales!"</p>
+                        <span class="text-warning fw-bold">- Emily Brown, Australia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Egipto es historia viva. Las pirámides y el Nilo son experiencias únicas."</p>
+                        <span class="text-danger fw-bold">- Ahmed Hassan, Egipto</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Canadá me encantó por su naturaleza y ciudades modernas. ¡Volveré pronto!"</p>
+                        <span class="text-secondary fw-bold">- Sophie Martin, Canadá</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Italia es arte y sabor. Roma y Venecia son ciudades que enamoran."</p>
+                        <span class="text-success fw-bold">- Marco Rossi, Italia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-1">"Sudáfrica es aventura pura. Los safaris y la cultura local son espectaculares."</p>
+                        <span class="text-dark fw-bold">- Thandiwe Nkosi, Sudáfrica</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Viajes Globales</h5>
+                    <p>Tu agencia de confianza para descubrir los mejores destinos internacionales. Más de 10 años creando experiencias inolvidables por el mundo.</p>
+                    <div>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram ms-2"></i></a>
+                        <a href="#"><i class="bi bi-twitter ms-2"></i></a>
+                        <a href="#"><i class="bi bi-youtube ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Destinos</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>👤 Santiago Velasco</li>
+                        <li>📞 3012591200</li>
+                        <li>✉️ narvaezenrique2007@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS y Bootstrap Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
